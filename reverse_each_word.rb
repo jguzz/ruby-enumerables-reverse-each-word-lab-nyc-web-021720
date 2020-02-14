@@ -1,3 +1,3 @@
 def reverse_each_word(source_array)
-  source_array.map{| sentence | array = sentence.split(" "); new_array = array.reverse}
+  new_array = source_array.split(',')
 end
