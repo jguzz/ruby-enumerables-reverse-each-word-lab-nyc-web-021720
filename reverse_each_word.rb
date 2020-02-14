@@ -17,5 +17,5 @@ def reverse_each_word(source_array)
   reverse = new_array.reverse_each.collect do |val|
     val
   end
-  new_array
+  reverse
 end
