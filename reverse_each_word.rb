@@ -5,6 +5,6 @@ def reverse_each_word(source_array)
   new_array.collect do |x|
       x.reverse
   end
-  final = reverse.join(' ')
+  final = new_array.join(' ')
   final
 end
