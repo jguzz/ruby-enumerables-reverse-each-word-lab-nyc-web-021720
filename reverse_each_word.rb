@@ -4,5 +4,5 @@ def reverse_each_word(source_array)
   new_array.each do |val|
     reverse.push(new_array)
   end
-  print new_array
+  reverse
 end
