@@ -15,7 +15,7 @@ def reverse_each_word(source_array)
   new_array = source_array.split(' ')
   final = ""
   new_array.reverse_each_word.collect do |val|
-    val.reverse
+    val
   end
   new_array
 end
