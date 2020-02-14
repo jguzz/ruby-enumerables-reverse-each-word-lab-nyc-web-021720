@@ -20,5 +20,5 @@ def reverse_each_word(source_array)
       reverse.push(val.reverse)
   end
 
-  final
+  final.join(' ')
 end
