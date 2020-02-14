@@ -8,5 +8,5 @@ def reverse_each_word(source_array)
       final += v
     end
   end
-  reverse
+  final
 end
