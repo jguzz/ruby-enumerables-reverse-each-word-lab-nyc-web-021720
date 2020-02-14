@@ -19,6 +19,5 @@ def reverse_each_word(source_array)
   final = new_array.collect do |val|
       reverse.push(val.reverse)
   end
-
   final.join(' ')
 end
