@@ -10,13 +10,15 @@
 #   final
 # end
 
-def reverse_each_word(source_array)
 
-  new_array = source_array.split(' ')
+DONE WITHOUT COLLECT
+def reverse_each_word(source_array)
   reverse = []
+  new_array = source_array.split(' ')
   final = ""
-  reverse = new_array.reverse_each.collect do |val|
-    val
+  new_array.each do |val|
+      reverse.push(val.reverse)
   end
-  reverse
+  final = reverse.join(' ')
+  final
 end
